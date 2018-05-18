@@ -1,0 +1,30 @@
+{
+  "name": "postcss-selector-replace",
+  "version": "0.0.1",
+  "description": "selector replasement",
+  "main": "index.js",
+  "scripts": {
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "author": {
+    "name": "Yuta Ito",
+    "email": "itaoyuta@gmail.com",
+    "url": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "postcss": "^6.0.8"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
