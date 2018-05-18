@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/itaoyuta/postcss-selector-replace.svg?branch=master)](https://travis-ci.org/itaoyuta/postcss-selector-replace)
+
 # postcss-selector-replace
 This is postcss plugin.  
 
