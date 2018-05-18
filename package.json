@@ -19,13 +19,13 @@
   "author": {
     "name": "Yuta Ito",
     "email": "itaoyuta@gmail.com",
-    "url": ""
+    "url": "http://itaoyuta.hatenablog.com/"
   },
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/itaoyuta/postcss-selector-replace/issues"
   },
-  "homepage": "",
+  "homepage": "http://itaoyuta.hatenablog.com/",
   "devDependencies": {
     "jest": "^22.4.3"
   },
