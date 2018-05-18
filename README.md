@@ -8,6 +8,7 @@ I immediately prepared a scss environment, but there was one problem.
 In order to solve this we decided to pipe css built from scss and then apply selector symbols based on our own rules.  
 This is the postcss plugin created for that.  
 
+
 # Example
 
 __postcss.config.js__   
