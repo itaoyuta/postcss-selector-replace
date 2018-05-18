@@ -1,15 +1,15 @@
 var postcss = require('postcss');
 var replace = require('../lib/replace');
 
-test('only array options', () => {
+test('Always requires argment', () => {
   expect(() => {replace()}).toThrow();
 });
 
-test('object name must use before and after', () => {
+test('Be sure to have "before" and "after" object names', () => {
   expect(() => {replace({"before": []})}).toThrow();
 });
 
-test('object name must use before and after', () => {
+test('Objects "before" and "after" must be of type Array', () => {
   expect(() => {replace({"before": [], "after": 0})}).toThrow();
 });
 
@@ -18,7 +18,7 @@ test('Array length is 1 or more', () => {
   expect(() => {replace({"before": ['[test]'], "after": []})}).toThrow();
 });
 
-test('replace pattern test', () => {
+test('Replace pattern test', () => {
   expect(postcss(replace({'before': ['[test]'], 'after': ['^']})).process('h1{}').css)
     .toBe('h1{}');
 

@@ -1,6 +1,6 @@
 {
   "name": "postcss-selector-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "selector replasement",
   "keywords": [
     "css",
@@ -20,6 +20,10 @@
     "name": "Yuta Ito",
     "email": "itaoyuta@gmail.com",
     "url": "http://itaoyuta.hatenablog.com/"
+  },
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/itaoyuta/postcss-selector-replace/"
   },
   "license": "MIT",
   "bugs": {
