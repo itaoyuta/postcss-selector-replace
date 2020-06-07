@@ -1,11 +1,13 @@
 {
   "name": "postcss-selector-replace",
-  "version": "1.0.2",
-  "description": "selector replasement",
+  "version": "1.1.0",
+  "description": "Replace selectors during the build",
   "keywords": [
     "css",
     "postcss",
     "postcss-plugin",
+    "selector",
+    "replace",
     "Xamarin"
   ],
   "main": "index.js",
@@ -21,9 +23,9 @@
     "email": "itaoyuta@gmail.com",
     "url": "http://itaoyuta.hatenablog.com/"
   },
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/itaoyuta/postcss-selector-replace/"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itaoyuta/postcss-selector-replace/"
   },
   "license": "MIT",
   "bugs": {
@@ -31,7 +33,7 @@
   },
   "homepage": "http://itaoyuta.hatenablog.com/",
   "devDependencies": {
-    "jest": "^22.4.3"
+    "jest": "^26.0.1"
   },
   "dependencies": {
     "postcss": "^6.0.8"
