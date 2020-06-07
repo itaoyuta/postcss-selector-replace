@@ -44,6 +44,14 @@ test('Replace pattern test', () => {
   expect(postcss(replace(pluginTestOptions)).process('[test]h1{}').css).toBe('^h1{}');
 });
 
+test('Replace pattern test with multiple entries', () => {
+  const pluginTestOptions = { before: ['[test]'], after: ['^'] };
+
+  expect(postcss(replace(pluginTestOptions)).process('h1{}').css).toBe('h1{}');
+  expect(postcss(replace(pluginTestOptions)).process('[test][test]h1{}').css).toBe('^^h1{}');
+  expect(postcss(replace(pluginTestOptions)).process('[test][test][test]h1{}').css).toBe('^^^h1{}');
+});
+
 test('Replace pattern test with nesting', () => {
   const pluginTestOptions = { before: ['[test]'], after: ['^'] };
 
